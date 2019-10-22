@@ -1,25 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+       <img 
+      
+        />
+       
+        <p id="App-link">
+        "Transformation does not start with <br />
+        some one else changing you;<br />
+         transformation is an inner self reworking of <br />
+         what you are now to what you will be."
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <a>Hello Amina hhhhhhhhhh</a>
-        <a>Hello Amina hhh</a>
       </header>
     </div>
   );
