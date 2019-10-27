@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
-import axios from 'axios'
+import axios from 'axios';
+import c from './img'
+
 
 class App extends Component {
   constructor () {
@@ -33,10 +35,15 @@ getQuote(){
       <div className="App">
         <header className="App-header">
           <p id="App-link">
-            {this.state.quote}
+            {"«" +this.state.quote+ "»" }
+            <br />
+            <br /> 
+            <small id ="smal">{this.state.author} </small>
           </p>
-          <small>{this.state.author}</small>
-          <button onClick={() => this.getQuote()}>New</button>
+          
+          <button><img src={c} alt="my image" onClick={() => this.getQuote()} />New</button>
+         
+          
         </header>
       </div>
     );
