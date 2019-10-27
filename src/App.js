@@ -38,7 +38,7 @@ getQuote(){
             {"«" +this.state.quote+ "»" }
             <br />
             <br /> 
-            <small id ="smal">{this.state.author} </small>
+            <small>{this.state.author} </small>
           </p>
           
           <button><img src={c} alt="my image" onClick={() => this.getQuote()} />New</button>
