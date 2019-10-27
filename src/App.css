@@ -6,15 +6,15 @@
 }
 
 .App-header {
-  background-color: #e4e8f0;
+
   
-  
-  background-image: url(a.jpg);
+  border-image-width: initial;
+  background-image: url(aa.jpg); 
   
  /* image-orientation: inherit;*/
  background-position: center;
   background-repeat: no-repeat;
-  
+
     background: cover;
   min-height: 100vh;
   display: flex;
@@ -22,17 +22,14 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
   
+
 }
 
 #App-link {
   
-text-align: top;
-color: black;
-border: 1px solid rgb(117, 112, 112);
-padding: 300px 1px 200px  8px ;
-  background-color: white;
+ text-align: top;
+ color: white;
   box-sizing: border-box;
   max-width:600px;
   max-height:600px;
@@ -40,7 +37,20 @@ padding: 300px 1px 200px  8px ;
   word-spacing:3px;
   font-family: cursive;
   vertical-align:center;
+  text-transform: capitalize;
+  
+  background-color:rgba(214, 103, 214, 0.5);
  
 }
 
-
+ img {
+  width: 40px;
+  
+}
+#play_button {
+  position:absolute;
+  transition: .5s ease;
+  bottom: 200px;
+  left: 1000px;
+  
+}

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import axios from 'axios';
-import c from './img'
+import  c from './img/c.png';
 
 
 class App extends Component {
@@ -33,18 +33,22 @@ getQuote(){
   render(){
     return (
       <div className="App">
-        <header className="App-header">
+        <header className="App-header" >
           <p id="App-link">
             {"«" +this.state.quote+ "»" }
             <br />
             <br /> 
-            <small>{this.state.author} </small>
+            <small>{"-"+this.state.author} </small>
           </p>
           
-          <button><img src={c} alt="my image" onClick={() => this.getQuote()} />New</button>
+          <button id ="play_button"> 
+            <img src={c}  alt="my image" onClick={() => this.getQuote()} 
+            /> 
+          </button>
          
-          
+         
         </header>
+        <article className="a"></article>
       </div>
     );
   }
