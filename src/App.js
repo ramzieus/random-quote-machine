@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import axios from 'axios';
-import c from './img'
+import c from './img/c.jpg'
 
 
 class App extends Component {
