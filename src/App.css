@@ -6,23 +6,19 @@
 }
 
 .App-header {
-
-height: 420px;
+  height: 420px;
   background: white url(aa.png) no-repeat  center;
-   
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  
-
 }
 
 #App-link {
   
- text-align: top;
- color: white;
+  text-align: top;
+  color: white;
   box-sizing: border-box;
   max-width:600px;
   max-height:600px;
@@ -31,9 +27,7 @@ height: 420px;
   font-family: cursive;
   vertical-align:center;
   text-transform: capitalize;
-  
- /* background-color:rgba(214, 103, 214, 0.5);*/
- 
+
 }
 
  #play_button img {
@@ -51,13 +45,10 @@ height: 420px;
 }
 .a img{
   width: 200px;
- float:left;
+  float:left;
   height:360px;
   position: absolute;
   left: 279px;
-  top: 30px;
-/*width: 100px; /* largeur en pixel de ta photo */ 
-   
-/*margin-right:; */ 
-vertical-align: top;
+  top: 30px; 
+  vertical-align: top;
 }
