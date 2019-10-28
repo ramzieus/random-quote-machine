@@ -42,7 +42,7 @@ getQuote(){
             <small>{"-"+this.state.author} </small>
           </p>
           
-          <button id ="play_button"> 
+          <button id ="play_button">
             <img src={c}  alt="my image" onClick={() => this.getQuote()} 
             /> 
           </button>
@@ -52,7 +52,7 @@ getQuote(){
             <img   src= {pp} 
             />
             </p>
-            
+
       </div>
     );
   }
