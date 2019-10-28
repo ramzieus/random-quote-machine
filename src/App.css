@@ -27,21 +27,17 @@
   font-family: cursive;
   vertical-align:center;
   text-transform: capitalize;
-
 }
 
  #play_button img {
-  width: 30px;
-  
+  width: 30px; 
 }
+
 #play_button {
   position:absolute;
   transition: .5s ease;
   bottom: 400px;
-  left: 1000px;
-  
-    
-    
+  left: 1000px;  
 }
 .a img{
   width: 200px;

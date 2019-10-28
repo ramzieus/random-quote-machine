@@ -35,8 +35,6 @@ getQuote(){
       <div className="App">
     
         <header className="App-header" >
-      
-        
           <p id="App-link">
             {"«" +this.state.quote+ "»" }
             <br />
@@ -49,15 +47,12 @@ getQuote(){
             /> 
           </button>
         
-         
         </header>
-        <p className="a">
-           <img   src= {pp} 
-          
-           
-           />
-         </p>
-
+           <p className="a">
+            <img   src= {pp} 
+            />
+            </p>
+            
       </div>
     );
   }
