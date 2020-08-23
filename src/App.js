@@ -34,7 +34,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        {/* <header className="App-header" >
+        <header className="App-header" >
           <p id="App-link">
             {"«" + this.state.quote + "»"}
             <br />
@@ -48,7 +48,7 @@ class App extends Component {
           </button>
           
         </header>
-        <p className="a">
+        {/* <p className="a">
           <img src={pp}
           />
         </p> */}
@@ -67,7 +67,7 @@ class App extends Component {
                   <p className="card-text">"Change will not come if we wait for some other person or some other time. We are the ones weve been waiting for. We are the change that we seek."</p>
                   <h5 className="card-title">~Obama</h5>
                   {/* <!-- <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> --> */}
-                  <a href="#" className="btn btn-primary btn-circle" style={{ position: 'relative', border_radius: '50%', top: '170px', left: '480px', margin: '8px', border: '0', background_color: '#FBC02D' }}><i class="fa fa-refresh fa-spin" aria-hidden="true"></i></a>
+                  <a href="#" className="btn btn-primary btn-circle" style={{ position: 'relative', border_radius: '50%', top: '170px', left: '480px', margin: '8px', border: '0', background_color: '#FBC02D' }}><i className="fa fa-refresh fa-spin" aria-hidden="true"></i></a>
                 </div>
               </div>
             </div>
